@@ -1,0 +1,40 @@
+v 4
+file . "./mono_cpu.vhd" "3dc0e46423c37c7e5aa18d6b3e0778bde4ae16e8" "20231204155923.873":
+  entity mono_cpu at 1( 0) + 0 on 483;
+  architecture behavioral of mono_cpu at 11( 160) + 0 on 484;
+file . "./single_reg.vhd" "a763778583817cd47090161a59ece887ac2e2533" "20231204155923.845":
+  entity single_reg at 1( 0) + 0 on 479;
+  architecture rtl of single_reg at 13( 268) + 0 on 480;
+file . "./reg_bank.vhd" "42fa5a98ba77e5911b6aa9e16640f5ce9268456e" "20231204155923.824":
+  entity reg_bank at 1( 0) + 0 on 475;
+  architecture rtl of reg_bank at 20( 525) + 0 on 476;
+file . "./mux_2_1_5_bits.vhd" "eee440d4a5213b607ab2c37db7ca678bdaa0a8c8" "20231204155923.801":
+  entity mux_2_1_5_bits at 1( 0) + 0 on 471;
+  architecture behavior of mux_2_1_5_bits at 15( 309) + 0 on 472;
+file . "./instruction_register.vhd" "4fe709e9f0f736b47f4e07f1dded49dda297b8d8" "20231204155923.776":
+  entity instruction_register at 1( 0) + 0 on 467;
+  architecture rtl of instruction_register at 17( 536) + 0 on 468;
+file . "./data_memory.vhd" "1ea042b0f5374880ad52a609ba109ce19480984b" "20231204155923.749":
+  entity data_memory at 1( 0) + 0 on 463;
+  architecture behavioral of data_memory at 16( 398) + 0 on 464;
+file . "./alu_control.vhd" "456bf338e201a9b9ccd8def85541d148bb425252" "20231204155923.721":
+  entity alu_control at 1( 0) + 0 on 459;
+  architecture rtl of alu_control at 13( 287) + 0 on 460;
+file . "./control_unit.vhd" "fbbea8933ca4b6e93aa9c1c68da5ce50eb30b424" "20231204155923.735":
+  entity control_unit at 1( 0) + 0 on 461;
+  architecture behavioral of control_unit at 20( 494) + 0 on 462;
+file . "./instruction_memory.vhd" "05fc7d9c7dbd7ec651e56a396d3eb8c1b8ec2687" "20231204155923.761":
+  entity instruction_memory at 1( 0) + 0 on 465;
+  architecture behavioral of instruction_memory at 12( 258) + 0 on 466;
+file . "./mono_cpu_tb.vhd" "0cbd874202c0e5c0a6cdcf2ab36e91e896f1c0e7" "20231204155923.788":
+  entity mono_cpu_tb at 1( 0) + 0 on 469;
+  architecture behavior of mono_cpu_tb at 9( 161) + 0 on 470;
+file . "./mux_2_1.vhd" "6ed5ab26189d346f2146b6e1c39f3714e7447af7" "20231204155923.813":
+  entity mux_2_1 at 1( 0) + 0 on 473;
+  architecture behavior of mux_2_1 at 15( 298) + 0 on 474;
+file . "./sign_extend.vhd" "9d4aba38b64c8b67b5bef9ac65b82d0f3e45094e" "20231204155923.832":
+  entity sign_extend at 1( 0) + 0 on 477;
+  architecture rtl of sign_extend at 11( 216) + 0 on 478;
+file . "./ula.vhd" "77989d81285bc94b110b45690e5b2a1c5c1fcb10" "20231204155923.858":
+  entity ula at 1( 0) + 0 on 481;
+  architecture rtl of ula at 18( 433) + 0 on 482;
